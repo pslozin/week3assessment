@@ -1,5 +1,5 @@
 //V2
-const months = ["January", "February", "March", "April", "May", "June", "July"];
+const months = ["McDonalds", "Fridays", "BK", "BeerGarden", "Wendys", "Home Cooking", "BBQ"];
 
 const random = Math.floor(Math.random() * months.length);
 console.log(random, months[random]);
@@ -7,7 +7,7 @@ console.log(random, months[random]);
 
 function randomRest()
 {
-alert(random)
+alert(`Todays pick is ${months[random]}`)
 }
 
 let rest = document.querySelector(".restsug")
