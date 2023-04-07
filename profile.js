@@ -1,4 +1,4 @@
-//V2
+//V4
 const months = ["McDonalds", "Fridays", "BK", "BeerGarden", "Wendys", "Home Cooking", "BBQ"];
 
 const random = Math.floor(Math.random() * months.length);
